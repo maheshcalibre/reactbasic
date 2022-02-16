@@ -68,7 +68,7 @@ function Register() {
                 onChange={formik.handleChange}
                 onBlur={formik.handleBlur}
                 value={formik.values.name}
-                placeholder="Enter the name"
+                placeholder="Enter the Name"
 
                 />
              {formik.touched.name && formik.errors.name && <p style={{color:"red"}}>{formik.errors.name}</p>}
