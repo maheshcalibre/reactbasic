@@ -6,6 +6,7 @@
       "author": "typicode"
     }
   ],
+
   "register": [
     {
       "id": 1,
@@ -58,6 +59,7 @@
       "id": 1,
       "name": "Leanne Graham",
       "username": "Bret",
+      "designation":"manager",
       "email": "Sincere@april.biz",
       "address": {
         "street": "Kulas Light",
@@ -81,6 +83,7 @@
       "id": 2,
       "name": "Ervin Howell",
       "username": "Antonette",
+      "designation":"manager",
       "email": "Shanna@melissa.tv",
       "address": {
         "street": "Victor Plains",
@@ -104,6 +107,7 @@
       "id": 3,
       "name": "Clementine Bauch",
       "username": "Samantha",
+      "designation":"manager",
       "email": "Nathan@yesenia.net",
       "address": {
         "street": "Douglas Extension",
@@ -270,6 +274,30 @@
       }
     }
   ],
+"Project" : [
+
+{
+  "id": 1,
+  "Project Name": "DemoProject",
+  "designation": "manager"
+},
+{
+  "id": 2,
+  "Project Name": "TestProject",
+  "designation": "manager"
+}
+
+
+
+],
+
+
+
+
+
+
+
+
   "comments": [
     {
       "id": 1,

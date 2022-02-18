@@ -4,6 +4,8 @@ import { useNavigate } from 'react-router-dom';
 import { Button, Container } from 'react-bootstrap'
 import React from 'react';
 import axios from 'axios';
+import './Home.css';
+
 
 
 function Home() {
@@ -43,11 +45,12 @@ function Home() {
 
     <div>
 
-      <Container >
+      <Container>
 
         <Button className='btn btn-info col-lg-3 mt-5' onClick={() => navigate("/addusers")}>Add </Button><br /><br />
 
-        <table className="table table-hover table-bordered shadow-lg table-responsive">
+        <div class="table-horiz-scroll">
+        <table className="table table-hover table-bordered shadow-lg table-responsive ">
           <thead>
             <tr>
               <th>No</th>
@@ -82,6 +85,7 @@ function Home() {
 
           </tbody>
         </table>
+        </div>
 
 
 
